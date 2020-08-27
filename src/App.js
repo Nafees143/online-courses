@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import Course from './Component/Course/Course';
+import Header from './component/Header/Header';
+import Courses from './component/Courses/Courses';
+
 
 function App() {
   return (
-    <div className="App">
-      <Course></Course>
+    <div>
+        <Header />
+        <Courses />
     </div>
   );
 }
